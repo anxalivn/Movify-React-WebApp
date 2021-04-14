@@ -8,7 +8,7 @@ const Hero = () => (
     <h1 className="mb-4">Movify</h1>
 
     <p className="lead">
-      Spotify but with Movies
+      Spotify but with Movies Not Really
     </p>
   </div>
 );
