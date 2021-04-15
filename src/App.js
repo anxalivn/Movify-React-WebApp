@@ -3,7 +3,7 @@ import { Router, Route, Switch } from "react-router-dom";
 import { Container } from "reactstrap";
 import Profile from "./views/Profile";
 import Loading from "./components/Loading";
-import NavBar from "./components/NavBar";
+import NewBar from "./components/NewBar";
 import Footer from "./components/Footer";
 import Home from "./views/Home";
 import Watchlist  from "./components/Watchlist";
@@ -32,7 +32,7 @@ const App = () => {
   return (
     <Router history={history}>
       <div id="app" className="d-flex flex-column h-100">
-        <NavBar />
+        <NewBar />
         <Container className="flex-grow-1 mt-5">
           <Switch>
             <Route path="/" exact component={Home} />
